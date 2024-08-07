@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(212, 210, 210, 0.966) ;
+}
+
+.cell{
+    border: 1px solid black;
+    width:75px;
+    height: 75px;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+  
+}
+#gamecontainer{
+    text-align: center;
+    font-family: "Permanent Marker",cursive;
+}
+#cells{
+display: grid;
+grid-template-columns: repeat(3,auto);
+width:225px;
+margin:auto;
+
+}
+
+.btns{
+    padding-bottom: 5px;
+    background-color:#c9c9c9;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: rgb(14, 13, 13);
+    font-family: "Permanent Marker",cursive;
+}
+.btns:hover{
+    padding-bottom: 10px;
+   
+}
